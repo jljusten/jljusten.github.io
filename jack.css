@@ -1,0 +1,22 @@
+
+Body
+{
+  font-family: courier;
+  color: black;
+  background: #FFF0B4;
+  font-size: 16pt;
+}
+
+A
+{
+  color: 8080A0;
+  text-decoration: none;
+}
+
+A:hover
+{
+  color: 8080FF;
+  /* font-weight: bold; */
+  text-decoration: underline;
+}
+
