@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+          "http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+  <meta charset="UTF-8">
+  <Header>
+    <Title>Kitchen Remodel 2019</Title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="beerslider/BeerSlider.css">
+    <Link type="text/javascript" src="beerslider/BeerSlider.js">
+  </Header>
+
+  <Body>
+    <div id="kitchen" class="beer-slider" data-beer-label="before">
+      <img src="before.jpg" alt="kitchen before remodel">
+      <div class="beer-reveal" data-beer-label="after">
+        <img src="after.jpg" alt="kitchen after remodel">
+      </div>
+    </div>
+    <script src="beerslider/BeerSlider.js"></script>
+    <script>
+      var slider = new BeerSlider(document.getElementById("kitchen"),
+				  { start: 75 });
+    </script>
+  </Body>
+</HTML>
